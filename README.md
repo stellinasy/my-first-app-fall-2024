@@ -1,11 +1,5 @@
 # my-first-app-fall-2024
 
-## Setup
-
-Todo: create and activiate a virtual environment 
-
-Todo: install packages 
-
 Run the unemployment report:
 
 ```sh
@@ -13,6 +7,10 @@ ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
 ```
 
 ## Setup
+
+Todo: create and activiate a virtual environment 
+
+Todo: install packages 
 
 Create a virtual environment (first time only):
 
