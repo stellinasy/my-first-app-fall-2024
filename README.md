@@ -28,6 +28,18 @@ Create a ".env" file and add contents like the following (using your own AlphaVa
 ALPHAVANTAGE_API_KEY="..."
 ```
 
+Set up email sending service (Mailgun):
+
+To use Mailgun for sending email, you must first follow some setup instructions to create an account, verify your account, setup a sandbox domain, then finally obtain an API Key.
+
++ Create a Mailgun account with your business or university email address (i.e. MAILGUN_SENDER_ADDRESS). Click the verification link sent to that address.
++ Login. Find and click the nav link about "Sending" email. From the domains page, note the sandbox domain provided to you by default (i.e. MAILGUN_DOMAIN like "sandbox-xyz.mailgun.org").
++ Find and click on API Key settings link on bottom right, then on the API Keys page, scroll down and click the button to create a new API Key (i.e. MAILGUN_API_KEY).
+
++ NOTE: Sandbox domains are restricted to authorized recipients only. So you'll only be able to send emails to yourself and a handful of "beta tester" friends and family until / unless you register your own domain later.
++ NOTE: if you see 403 error later, try registering your own email address as an "Authorized Recipient", and click the verification email, and try again
+
+
 ## Usage 
 
 Run the example script:
@@ -49,3 +61,9 @@ Run the stocks report:
 ```sh
 python app/stocks.py
 ```
+
+Run the example email sending file:
+```sh
+python app/email_service.py
+```
+
