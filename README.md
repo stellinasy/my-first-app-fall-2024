@@ -67,3 +67,7 @@ Run the example email sending file:
 python app/email_service.py
 ```
 
+Run the RPS game:
+```sh
+python app/rps.py
+```
