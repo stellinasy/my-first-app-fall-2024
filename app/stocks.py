@@ -1,4 +1,3 @@
-
 from pandas import read_csv
 from plotly.express import line
 
@@ -59,7 +58,6 @@ if __name__ == "__main__":
     # Challenge C
     #
     # Plot a line chart of adjusted closing prices over time (all time).
-
 
 
     fig = line(x=df["timestamp"], y=df["adjusted_close"],
