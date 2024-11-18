@@ -51,13 +51,10 @@ python app/my_script.py
 Run the unemployment report:
 
 ```sh
-#ALPHAVANTAGE_API_KEY="..." python app/unemployment.py
-
 python app/unemployment.py
 ```
 
 Run the stocks report:
-
 ```sh
 python app/stocks.py
 ```
@@ -70,6 +67,12 @@ python app/email_service.py
 Run the RPS game:
 ```sh
 python app/rps.py
+```
+
+## Usage
+### Web App
+```sh
+FLASK_APP=web_app flask run
 ```
 
 ## Testing
