@@ -69,4 +69,4 @@ if __name__ == "__main__":
     #send email
 
     latest_price = first_row["adjusted_close"]
-    send_mail_with_mailgun(subject="Stocks Report",html_content="Latest price for {symbol} is {latest_price})")
+    send_mail_with_mailgun(subject="Stocks Report",html_content=f"Latest price for {symbol} is {latest_price})")
